@@ -1,6 +1,10 @@
 import streamlit as st
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Additional Thoughts", page_icon="💭", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 st.title("💭 Additional Thoughts & What You Might Have Missed")
 
@@ -401,5 +405,6 @@ Wavelets are a powerful tool, but not a panacea. Understanding their strengths a
 
 *This comprehensive guide should give you a solid foundation for working with wavelets in your own projects!*
 """)
+
 
 

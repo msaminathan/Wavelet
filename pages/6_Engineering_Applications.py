@@ -3,8 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pywt
 from scipy import signal
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Engineering Applications", page_icon="🔧", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 # Vibrant styling
 st.markdown("""

@@ -2,8 +2,12 @@ import streamlit as st
 import os
 import zipfile
 import io
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Download & Resources", page_icon="📥", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 st.title("📥 Download & Resources")
 
@@ -239,5 +243,6 @@ If you find bugs or have suggestions for improvements:
 
 Thank you for using the Wavelet Analysis Application!
 """)
+
 
 

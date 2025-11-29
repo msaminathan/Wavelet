@@ -1,6 +1,10 @@
 import streamlit as st
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Code Explanation", page_icon="💻", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 st.title("💻 Code Explanation")
 

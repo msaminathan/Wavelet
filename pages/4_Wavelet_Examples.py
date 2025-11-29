@@ -2,8 +2,12 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import pywt
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Wavelet Examples", page_icon="🎨", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 # Set vibrant matplotlib style
 plt.style.use('default')

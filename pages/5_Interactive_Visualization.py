@@ -3,8 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pywt
 from scipy import signal
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Interactive Visualization", page_icon="🎮", layout="wide")
+
+# Render shared navigation first
+render_navigation()
 
 # Vibrant styling for interactive page
 st.markdown("""

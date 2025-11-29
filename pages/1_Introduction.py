@@ -1,8 +1,12 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+from shared_navigation import render_navigation
 
 st.set_page_config(page_title="Introduction", page_icon="📚", layout="wide")
+
+# Render shared navigation
+render_navigation()
 
 # Vibrant page styling
 st.markdown("""
